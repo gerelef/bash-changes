@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+source -p ./lib foo
+source -p ./lib bar
+source -p ./lib baz

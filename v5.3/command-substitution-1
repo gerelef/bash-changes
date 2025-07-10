@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+x=1
+out=${ x=2; uname; }
+echo "x=$x"
+echo "out=$out"

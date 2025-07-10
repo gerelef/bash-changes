@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if true; then
+	echo hello world
+else
+	echo goodbye world
+end
+
+echo more script

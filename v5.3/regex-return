@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo -n 'valid regex (match): '
+re='^dave$'
+[[ 'dave' =~ $re ]]; echo $?
+
+echo -n 'valid regex (no match): '
+re='^john$'
+[[ 'dave' =~ $re ]]; echo $?
+
+echo -n 'invalid regex: '
+re='^*$'
+[[ 'dave' =~ $re ]]; echo $?

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+x=1
+REPLY=''
+out=${| x=2; echo hello; REPLY='world'; }
+echo "x=$x"
+echo "out=$out"
+echo ">$REPLY<"

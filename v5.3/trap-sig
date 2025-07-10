@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+my-func() {
+	echo "signal is: $BASH_TRAPSIG"
+}
+
+trap my-func SIGINT
+sleep 10

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+re='^.*$'
+if [[ 'dave' =~ $re ]]; then
+	echo first regex match
+fi
+
+re='^*$'
+if [[ 'dave' =~ $re ]]; then
+	echo second regex match
+fi

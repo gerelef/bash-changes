@@ -1,0 +1,27 @@
+1.
+if and fi: `bat -pn bad-script`
+
+2.
+error if regex is invalid: bad regex and regex-return (in that order)
+
+3.
+./bash5.3 glob-sort
+./bash5.3 glob-sort size
+./bash5.3 glob-sort numeric
+./bash5.3 glob-sort nosort
+
+4. compgen
+compgen -v -V varname
+
+5.
+command substitution
+./command-substitution
+
+6.
+monoseconds
+
+7.
+source path
+
+8.
+trap-sig TRAP_SIG

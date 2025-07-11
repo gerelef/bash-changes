@@ -1,0 +1,6 @@
+[submodule "bash5-2"]
+	path = bash5-2
+	url = git@github.com:bminor/bash.git
+[submodule "bash5-3"]
+	path = bash5-3
+	url = git@github.com:bminor/bash.git
